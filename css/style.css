@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&family=Prata&display=swap');
+
+body {
+    background-color: #fbfbfb;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Prata',
+        serif;
+    padding-top: 150px;
+}
+
+.container {
+    width: 1290px;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.portfolio {
+    color: #F2F2F2;
+    font-size: 140px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    position: absolute;
+    top: -70px;
+    left: -210px;
+    z-index: -1;
+}
+.elementor-title{
+    width: 560px;
+}
+.elementor-h3{
+        color: #252525;
+        font-family: "Prata",
+        Sans-serif;
+        font-size: 38px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        position: relative;
+        bottom: 16px;
+        margin-bottom: 30px;
+            
+}
+.elementor-parag{
+    color: #8b8b8b;
+    font-family: "Heebo",
+    Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+.gallery-list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,388px);
+    grid-template-rows: repeat(5,255px);
+    grid-gap: 40px;
+    margin-bottom: 80px;
+}
+
+.gellary-items:first-child{
+    background-image: url('https://templatekit.jegtheme.com/pixelate/wp-content/uploads/sites/9/2020/08/tattoo-artist-tattooing-young-woman.jpg');
+    background-size: cover;
+}
+.gellary-items:nth-child(2){
+    grid-column: 2/ 3 ;
+    grid-row: 1 / 3;
+    background-image: url('https://templatekit.jegtheme.com/pixelate/wp-content/uploads/sites/9/2020/08/photographer-using-a-vintage-camera.jpg');
+    background-size: cover;
+}
+.gellary-items:nth-child(3){
+        background-image: url('https://templatekit.jegtheme.com/pixelate/wp-content/uploads/sites/9/2020/08/monochrome-portrait-of-amazing-romantic-woman-leaning-on-piano.jpg');
+        background-size: cover;
+}
+.gellary-items:nth-child(4){
+        grid-column: 1/ 2;
+        grid-row: 2 / 4;
+        background-image: url('https://templatekit.jegtheme.com/pixelate/wp-content/uploads/sites/9/2020/08/married-bride-and-groom-dancing.jpg');
+        background-size: cover;
+}
+.gellary-items:nth-child(5){
+    grid-column: 3/ 4;
+    grid-row: 2 / 4;
+    background-image: url('https://templatekit.jegtheme.com/pixelate/wp-content/uploads/sites/9/2020/08/cyclist-riding-along-a-mountain-road-PEUHHQ7.jpg');
+    background-size: cover;
+}
+.gellary-items:nth-child(6){
+            grid-column: 1/ 2;
+            grid-row: 4 / 6;
+            background-image: url('https://templatekit.jegtheme.com/pixelate/wp-content/uploads/sites/9/2020/08/beautiful-girl-in-wedding-gown-WYHZGAE.jpg');
+            background-size: cover;
+
+}
+.gellary-items:nth-child(8) {
+    grid-column: 3/ 4;
+    grid-row: 4 / 6;
+                    background-image: url('https://templatekit.jegtheme.com/pixelate/wp-content/uploads/sites/9/2020/08/statue-of-liberty-black-and-white-with-black-sky-in-new-york.jpg');
+                    background-size: cover;
+}
+.gellary-items:nth-child(7) {
+    grid-column: 2/ 3;
+    grid-row: 3 / 5;
+                background-image: url('https://templatekit.jegtheme.com/pixelate/wp-content/uploads/sites/9/2020/08/vintage-motorcycle-cafe-racer-style-6XSNBAD.jpg');
+                background-size: cover;
+}
+.gellary-items:nth-child(9){
+                    background-image: url('https://templatekit.jegtheme.com/pixelate/wp-content/uploads/sites/9/2020/08/turkish-wedding.jpg');
+                    background-size: cover;
+}
+.btn-view-more{
+    margin:  0 auto;
+    width: 181px;
+    height: 54px;
+    background-color: #715C41;
+    padding: 20px 30px 20px 40px;
+    cursor: pointer;
+}
+.view-link{
+        font-family: "Heebo",
+        Sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        fill: #FFFFFF;
+        color: #FFFFFF;
+        text-decoration: none;
+}
+.bx-chevron-right{
+    font-size: 22px;
+}
